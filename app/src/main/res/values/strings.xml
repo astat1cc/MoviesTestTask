@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movies Test Task</string>
+    <string name="no_connection_message">No connection.</string>
+    <string name="service_unavailable_message">Service unavailable now. Try again later.</string>
+    <string name="something_went_wrong_message">Oops! Something went wrong. Try again later.</string>
+    <string name="try_again">Try again</string>
+</resources>
