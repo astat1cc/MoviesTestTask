@@ -18,6 +18,9 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField "String", "API_KEY", '"y8KdYZjP2POaReybSvb2CGu2vH2wqo9S"'
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -45,7 +48,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    def dagger_version="2.43"
+    def dagger_version = "2.43"
     implementation "com.google.dagger:dagger:$dagger_version"
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
 
